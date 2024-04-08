@@ -7,16 +7,18 @@
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-      .link-email {
-        background-color: rgb(13,202,240);
+      .link {
+        background-color: #0dcaf0;
         padding: 2px;
         border-radius: 3px;
         color: #000;
         text-decoration: none;
         transition: all 0.3s ease 0s;
+        white-space: nowrap;
       }
-      .link-email:hover {
-        color: #087990;
+      .link:hover {
+        color: #0dcaf0;
+        background-color: #000;
       }
     </style>
   </head>
@@ -30,21 +32,44 @@
         </h1>
         <div class="alert alert-info">
           <h3 class="mb-3">Seja bem-vindo a Betel Software!</h3>
-          <hr>
           <p class="mb-0">
             Uma software house criada com o propósito de trazer avanços tecnológicos para a sociedade.
           </p>
+          <hr/>
+          <h4 class="mt-2">
+            Vamos começar um projeto?
+          </h4>
           <p class="mt-2 mb-0">
-            Projetos: 
-            <a
-              href="mailto:rayan@betelsoftware.com"
-              class="link-email"
-            >
-              rayan@betelsoftware.com
+            Entre em contato:
+            <a href="mailto:rayan@betelsoftware.com" class="link">rayan@betelsoftware.com</a> |
+            Instagram:
+            <a href="https://www.instagram.com/betelsoftware" target="_blank" class="link">
+            @betelsoftware
             </a>
           </p>
         </div>
       </div>
+
+      <div class="row me-1 ms-1">
+        <h3 class="mb-3 p-0 text-sm-start text-center">
+          <span class="text-bg-info">
+            Projetos desenvolvidos
+          </span>
+        </h3>
+        <div class="alert alert-info">
+          <h4 class="mb-0">
+            Sinal do Rhema:
+            <a href="https://www.instagram.com/betelsoftware" target="_blank" class="link">
+              sinalrhema.betelsoftware.com
+            </a>
+          </h4>
+          <p class="mt-2 mb-0">
+            Primeiro projeto desenvolvido, pela <span class="link">Betel Software</span>, para ajudar as escolas do Rhema em todo o Brasil. <br/>
+            Projeto desenvolvido para ajudar as escolas a tocar o sinal do Rhema (Centro de Treinamento Bíblico), de forma programada.
+          </p>
+        </div>
+      </div>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
